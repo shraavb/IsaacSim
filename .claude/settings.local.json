@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(systeminfo:*)",
+      "Bash(findstr:*)",
+      "Bash(wmic path win32_VideoController get:*)",
+      "Bash(powershell -Command \"Get-ComputerInfo | Select-Object CsProcessors, OsTotalVisibleMemorySize, WindowsProductName\")",
+      "Bash(powershell:*)"
+    ]
+  }
+}
